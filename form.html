@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <link rel="stylesheet" href="ecom.css">
+    <title> survey-form</title>
+    </head>
+
+  </html>
+  <body>
+<h1 id="title">Atani Campus Survey Form</h1>
+<p id="description">
+<em>Thank you for taking the time to help us improve the platform</em>
+</p>
+
+<form id="survey-form">
+<h3>
+  <label for="name" id="name-label"> 
+    Name <input type="text" id="name" placeholder="Enter your name" required>
+  </label>
+<br>
+<label for="email" id="email-label">
+  Email <input type="email" id="email" placeholder="Enter your Email">
+</label>
+<br>
+<label for="number" id="number-label">
+  Age (optional)<input type="number" id="number" placeholder="Age" min="13" max="50">
+</label><br>
+<label for="dropdown">
+
+  What level do you belong to?
+
+  <select id="dropdown">
+    <option value="0">Select your level</option>
+     <option value="1">ND1</option>
+      <option value="2">ND2</option>
+       <option value="3">HND1</option>
+       <option value="3">HND2</option>
+       
+  </select>
+</label>
+
+<p class="chal">
+ What is your gender?
+</p>
+
+<label for="radio" class="radio">
+  <input type="radio" id="radio" name="radio" value="radio"> Male
+</label>
+<label for="radio" class="radio">
+  <input type="radio" name="radio" value="radio" id="radio"> Female
+</label>
+
+<label for="radio" class="radio">
+  <input type="radio" id="radio" name="radio" value="radio">
+  Transgender
+</label>
+<p class="chal">
+What challenges do you face in Atani Campus? <em>(Select all that apply)</em>
+</p>
+<label for="checkbox" class="checkbox box">
+<input type="checkbox" value="box" id="checkbox"> Bad Network
+  </label>
+
+  <label for="checkbox" class="checkbox">
+    <input type="checkbox" value="box" id="checkbox"> Insecurity
+  </label>
+
+  <label for="checkbox" class="checkbox">
+    <input type="checkbox" value="box" id="checkbox"> Poor Accommodation 
+  </label>
+
+  <label for="checkbox" class="checkbox">
+    <input type="checkbox" value="box" id="checkbox"> Bad Teaching Facilities
+  </label>
+
+  <label for="checkbox" class="checkbox"
+  ><input type="checkbox" value="box" id="checkbox"> Unnnecesary Expenses
+  </label>
+
+  <label for="checkbox" class="checkbox">
+    <input type="checkbox" value="box" id="checkbox"> Expensive Commodities
+  </label>
+
+
+  <label for="textarea" class="comment"> 
+<p class="any">Any comments or suggestions?</p>
+    <textarea id="textarea" rows="6" cols="30" placeholder="Enter your comment here..."></textarea>
+  </label>
+
+<label for="submit">
+<input type="submit" value="Submit" id="submit">
+</label>
+</h3>
+  </form>
+
+
+
+
+    </body>
